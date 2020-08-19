@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "QAPM"
-  spec.version      = "3.2.2"
+  spec.version      = "3.3.1"
   spec.summary      = "QAPM wit no crash."
 
   # This description is used to generate tags and improve search results.
