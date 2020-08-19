@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TestFramework.podspec"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of TestFramework.podspec."
+  spec.version      = "1.0"
+  spec.summary      = "A framework for testing"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/TestFramework.podspec"
+  spec.homepage     = "https://github.com/wxy19900214/Cocoapods/blob/master/TestFramework.podspec.podspec"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "v_wxyawang" => "v_wxyawang@tencent.com" }
+  spec.author             = { "wxy" => "809674813@qq.com" }
   # Or just: spec.author    = "v_wxyawang"
   # spec.authors            = { "v_wxyawang" => "v_wxyawang@tencent.com" }
   # spec.social_media_url   = "https://twitter.com/v_wxyawang"
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/TestFramework.podspec.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/wxy19900214/Cocoapods.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
