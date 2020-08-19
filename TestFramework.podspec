@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "TestFramework.podspec"
+  spec.name         = "TestFramework"
   spec.version      = "1.0"
-  spec.summary      = "A framework for testing"
+  spec.summary      = "A framework for testing."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "https://github.com/wxy19900214/Cocoapods/blob/master/TestFramework.podspec.podspec"
+  spec.homepage     = "https://github.com/wxy19900214/Cocoapods/blob/master/TestFramework"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
