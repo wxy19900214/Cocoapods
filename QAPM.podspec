@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint TestFramework.podspec.podspec' to ensure this is a
+#  Be sure to run `pod spec lint QAPM.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "TestFramework"
-  spec.version      = "1.0"
-  spec.summary      = "TestFramework for testing."
+  spec.name         = "QAPM"
+  spec.version      = "3.2.2"
+  spec.summary      = "QAPM wit no crash."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                    TestFramework
+                    QAPM
                    DESC
 
   spec.homepage     = "https://github.com/wxy19900214/Cocoapods"
@@ -53,10 +53,10 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "wxy19900214" => "809674813@qq.com" }
-  # Or just: spec.author    = "v_wxyawang"
-  # spec.authors            = { "v_wxyawang" => "v_wxyawang@tencent.com" }
-  # spec.social_media_url   = "https://twitter.com/v_wxyawang"
+  spec.author             = { "wxy19900214i" => "809674813@qq.com" }
+  # Or just: spec.author    = "casscai"
+  # spec.authors            = { "casscai" => "casscai@tencent.com" }
+  # spec.social_media_url   = "https://twitter.com/casscai"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #spec.source_files  = "Headers/**/*.{h}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -111,17 +111,21 @@ Pod::Spec.new do |spec|
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
+
+
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+  spec.framework  = "CoreLocation"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
-  # spec.library   = "iconv"
+  spec.libraries = "c", "c++"
   # spec.libraries = "iconv", "xml2"
+
+  spec.vendored_frameworks = "QAPM.framework"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
